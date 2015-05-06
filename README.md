@@ -1,7 +1,7 @@
 es-query-simple
 ===============
 
-A tiny command line utility to query elasticsearch.
+A tiny command line utility to query elasticsearch. "Because `curl` isn't a cli."
 
 Installation
 -------

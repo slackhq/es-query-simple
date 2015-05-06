@@ -40,5 +40,5 @@ Same, but print json instead
 
 Return a list of all indexes in a cluster
 
-`./queryes.py -h "mybigserver:9200" -l
+`./queryes.py -h "mybigserver:9200" -l`
 

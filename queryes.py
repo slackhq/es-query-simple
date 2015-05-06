@@ -27,13 +27,14 @@ def usage():
 usage: {name} -h [es_host:port] <query>
 
 options:
-    -c [count]    number of results to return
-    -i [index]  query a specific index
-    -j,--json   output json instead of lines
-    --help      print this.
-    -l           list all indexes on host
+    -h [host:port]  host and port. defaults to localhost:9200
+    -c [count]      number of results to return
+    -i [index]      query a specific index
+    -j,--json       output json instead of lines
+    --help          print this.
+    -l              list all indexes on host
 
- """.format(name=sys.argv[0])
+""".format(name=sys.argv[0])
 
 if __name__ == "__main__":
 

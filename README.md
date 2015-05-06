@@ -8,7 +8,7 @@ Installation
 
 ```
 git clone (this repo)
-pip install elasticsearch
+pip install -r requirements.txt
 ./queryes.py
 ```
 

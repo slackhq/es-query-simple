@@ -50,7 +50,7 @@ if __name__ == "__main__":
     json_output = False
 
     for o, a in opts:
-        if o in ("--help"):
+        if o == "--help":
             usage()
             sys.exit(1)
         if o in ("-h", "--host"):
